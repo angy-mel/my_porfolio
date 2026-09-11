@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angela Melnyk | Frontend Developer</title>
+    <link rel="stylesheet" href="port.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <div class="logo-icon">✦</div>
+        <span class="logo-text">Angela Melnyk</span>
+      </div>
+      <nav>
+        <ul class="list">
+          <li><a class="nav-list" href="port.html">Home</a></li>
+          <li><a class="nav-list" href="about.html">About me</a></li>
+          <li><a class="nav-list" href="works.html">My works</a></li>
+        </ul>
+        <button class="contact-btn">Contact</button>
+      </nav>
+    </header>
+    <main class="about-page-container">
+      <div class="left-side">
+        <div class="left-side-card">
+          <div class="profile-badge">
+            <span>AM</span>
+          </div>
+          <h2>Angela Melnyk</h2>
+          <p class="role-text">Frontend Developer</p>
+          <div class="info">
+            <div class="info-item">📍Italy, Napoli</div>
+            <div class="info-item open-to-work">🟢 Open to work</div>
+          </div>
+
+          <a href="#" class="cv-btn">⇣ Download CV ⇣</a>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="about-learning">
+          <h2>Self-Directed Education</h2>
+          <p>
+            My path into tech is entirely self-driven. I mastered core frontend
+            technologies using free web resources, developer documentation, and
+            video courses, backed by official certifications from freeCodeCamp
+            to reinforce my skills.
+          </p>
+        </div>
+        <section class="certificates-section">
+          <h2>Certifications</h2>
+          <div class="certificates">
+            <div class="cert-card" onclick="openModal(this)">
+              <img
+                src="resp_web_des_sert.png"
+                alt="Responsive Web Design certificate"
+              />
+              <div class="cert-overlay">
+                <span>Click to zoom 🔍</span>
+              </div>
+              <p class="cert-title">Responsive Web Design</p>
+            </div>
+            <div class="cert-card" onclick="openModal(this)">
+              <img
+                src="resp_web_des_sert.png"
+                alt="JS Algorithms & Data Structures certificate"
+              />
+              <div class="cert-overlay">
+                <span>Click to zoom 🔍</span>
+              </div>
+              <p class="cert-title">JavaScript</p>
+            </div>
+            <div class="cert-card" onclick="openModal(this)">
+              <img
+                src="resp_web_des_sert.png"
+                alt="Front End Libraries Certificate"
+              />
+              <div class="cert-overlay">
+                <span>Click to zoom 🔍</span>
+              </div>
+              <p class="cert-title">Front End Libraries</p>
+            </div>
+          </div>
+        </section>
+        <section class="languages">
+          <h2>Languages I Speak</h2>
+          <div class="language-list">
+            <span>🤌 Italian</span>
+            <span>🌎 English</span>
+            <span>🌻 Ukrainian</span>
+          </div>
+        </section>  
+      </div>
+    </main>
+    <div class="modal" id="certificateModal">
+  <button class="modal-close">×</button>
+  <img id="modalImage" src="" alt="Certificate">
+</div>
+    </div>
+    <footer class="footer">
+      <div class="socials">
+        <a href="#" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="#" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+
+        <a href="#" aria-label="Telegram">
+          <i class="fa-brands fa-telegram"></i>
+        </a>
+      </div>
+
+      <p class="copyright">© 2026 Melnyk</p>
+    </footer>
+    <script src="port.js"></script>
+  </body>
+</html>
